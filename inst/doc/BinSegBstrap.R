@@ -1,4 +1,4 @@
-## ----setup, echo = FALSE, message = FALSE--------------------------------
+## ----setup, echo = FALSE, message = FALSE-------------------------------------
 library(knitr)
 library(BinSegBstrap)
 
@@ -49,7 +49,7 @@ plot(y, pch = 16, col = "grey30")
 lines(signal)
 lines(est$est, col = "red")
 
-## ----BstrapTest----------------------------------------------------------
+## ----BstrapTest---------------------------------------------------------------
 set.seed(1)
 n <- 100
 signal <- sin(2 * pi * 1:n / n)
